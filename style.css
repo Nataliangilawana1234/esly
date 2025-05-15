@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    background: linear-gradient(to bottom, #f0f0f0); /* Latar belakang gradien lembut */
+    color: #151414ed;
+    line-height: 1.6;
+}
+
+.biodata-section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 30px auto; /* Memberikan margin atas dan bawah */
+    background-color: #60f343;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Efek bayangan tipis */
+    border-radius: 8px; /* Sudut membulat */
+}
+
+.biodata-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Jarak antar kolom */
+    flex-wrap: wrap; /* Membuat kolom berbaris ke bawah jika layar kecil */
+}
+
+.biodata-column {
+    flex: 1;
+    min-width: 250px; /* Lebar minimum kolom */
+    text-align: justify;
+}
+
+.biodata-column h2 {
+    font-size: 28px;
+    color: #0b0000; /* Warna hitam untuk judul */
+    margin-bottom: 20px;
+    text-align: center; /* Judul di tengah kolom timeline */
+}
+
+.biodata-column p {
+    margin-bottom: 15px;
+}
+
+.timeline {
+    text-align: center;
+}
+
+.timeline h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.school {
+    display: inline-block;
+    background-color: #ef5e5e; /* Warna merah untuk label sekolah */
+    color: #fff;
+    padding: 8px 15px;
+    margin: 8px 0;
+    border-radius: 20px; /* Bentuk pil */
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.arrow {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #11f5f5; /* Warna biru untuk panah */
+}
